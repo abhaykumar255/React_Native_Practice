@@ -1,0 +1,23 @@
+When Life cycle will be Executed
+
+• When Component Render First Time.
+• When Component Update with State
+• When Component Update with Props
+• ON Error
+• When Component Unmount 
+
+Hooks in React-Native
+• State
+• Life cycle methods
+• Content API
+• Ref and Memo
+• Much More
+• We can make custom hooks also
+
+
+useEffect hook for life cycle methods
+• useEffect hook as componentDidUpdate?
+• Define state and button
+• useEffect only for specfic state
+• useEffect only for specific props
+• Interview Questions.
