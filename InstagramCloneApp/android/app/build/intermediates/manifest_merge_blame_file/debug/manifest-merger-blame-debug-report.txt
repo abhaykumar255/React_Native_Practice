@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.instagramclone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:4:5-76
+13-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:4:22-73
+14    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+14-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:5:5-75
+14-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:5:22-72
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:6:5-80
+15-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:6:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:7:5-81
+16-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:8:6-66
+17-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:8:23-63
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.182.0] /Users/abhayk/.gradle/caches/transforms-3/aca25530bcaa77f683598faa582134c3/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.182.0] /Users/abhayk/.gradle/caches/transforms-3/aca25530bcaa77f683598faa582134c3/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+19
+20    <uses-feature
+20-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:9:5-11:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:10:9-47
+22        android:required="false" />
+22-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:9-33
+23    <uses-feature
+23-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-57
+25        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+25-->[:react-native-camera] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:9-33
+26    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+27-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+28
+29    <application
+29-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:10:5-29:19
+30        android:name="com.instagramclone.MainApplication"
+30-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:11:7-38
+31        android:allowBackup="false"
+31-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:15:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] /Users/abhayk/.gradle/caches/transforms-3/9969c86cde056edf2e17edbdcb1c1cda/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:13:7-41
+35        android:label="@string/app_name"
+35-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:12:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:14:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:16:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:8:9-44
+39        <activity
+39-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:11:9-111
+40            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+40-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:11:19-83
+41            android:exported="false" />
+41-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/debug/AndroidManifest.xml:11:84-108
+42        <activity
+42-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:17:7-28:18
+43            android:name="com.instagramclone.MainActivity"
+43-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:18:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:20:9-118
+45            android:exported="true"
+45-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:23:9-32
+46            android:label="@string/app_name"
+46-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:19:9-41
+47            android:launchMode="singleTask"
+47-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:21:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:22:9-51
+49            <intent-filter>
+49-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:24:9-27:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:25:13-65
+50-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:25:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:26:13-73
+52-->/Users/abhayk/ReactNative/InstagramClone/android/app/src/main/AndroidManifest.xml:26:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+57            android:name="com.imagepicker.ImagePickerProvider"
+57-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+58            android:authorities="com.instagramclone.imagepickerprovider"
+58-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+59            android:exported="false"
+59-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+61            <meta-data
+61-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+63                android:resource="@xml/imagepicker_provider_paths" />
+63-->[:react-native-image-picker] /Users/abhayk/ReactNative/InstagramClone/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+64        </provider>
+65
+66        <meta-data
+66-->[com.facebook.soloader:soloader:0.10.5] /Users/abhayk/.gradle/caches/transforms-3/97359a6bd536957acb41163b88b681c4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+67            android:name="com.facebook.soloader.enabled"
+67-->[com.facebook.soloader:soloader:0.10.5] /Users/abhayk/.gradle/caches/transforms-3/97359a6bd536957acb41163b88b681c4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+68            android:value="false" />
+68-->[com.facebook.soloader:soloader:0.10.5] /Users/abhayk/.gradle/caches/transforms-3/97359a6bd536957acb41163b88b681c4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+69
+70        <service
+70-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+71            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+71-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+72            android:directBootAware="true"
+72-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+74            <meta-data
+74-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+75                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+75-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/f59c4a17ed0d11f51592296346ea8677/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+77            <meta-data
+77-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/6adee4729ab002df7e301463047993a3/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+78                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+78-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/6adee4729ab002df7e301463047993a3/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/abhayk/.gradle/caches/transforms-3/6adee4729ab002df7e301463047993a3/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+80            <meta-data
+80-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/abhayk/.gradle/caches/transforms-3/4ff7977b42d6a3200e8e06a14e9c0203/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+81-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/abhayk/.gradle/caches/transforms-3/4ff7977b42d6a3200e8e06a14e9c0203/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/abhayk/.gradle/caches/transforms-3/4ff7977b42d6a3200e8e06a14e9c0203/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.mlkit:vision-common:16.5.0] /Users/abhayk/.gradle/caches/transforms-3/bad1fd52e039a55a9ea7c50ae4663d7b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+84                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+84-->[com.google.mlkit:vision-common:16.5.0] /Users/abhayk/.gradle/caches/transforms-3/bad1fd52e039a55a9ea7c50ae4663d7b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.mlkit:vision-common:16.5.0] /Users/abhayk/.gradle/caches/transforms-3/bad1fd52e039a55a9ea7c50ae4663d7b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+86            <meta-data
+86-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+87                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+87-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+89        </service>
+90
+91        <provider
+91-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+92            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+92-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+93            android:authorities="com.instagramclone.mlkitinitprovider"
+93-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+94            android:exported="false"
+94-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+95            android:initOrder="99" />
+95-->[com.google.mlkit:common:17.2.0] /Users/abhayk/.gradle/caches/transforms-3/fc3c116cd54a9773b552e30e0e682c1e/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/05cb945ac8cf97e6084bf3b75fb5e5df/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/05cb945ac8cf97e6084bf3b75fb5e5df/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/05cb945ac8cf97e6084bf3b75fb5e5df/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/05cb945ac8cf97e6084bf3b75fb5e5df/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/f61e7bc32255c58a4e6ce7f69fedc0a0/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/f61e7bc32255c58a4e6ce7f69fedc0a0/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.6.0] /Users/abhayk/.gradle/caches/transforms-3/f61e7bc32255c58a4e6ce7f69fedc0a0/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+108            android:authorities="com.instagramclone.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.0.0] /Users/abhayk/.gradle/caches/transforms-3/0e31de31df7084eeeaab243901f3f5d4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/abhayk/.gradle/caches/transforms-3/f7010eb4f03f007409bdebc6a7fc2add/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/abhayk/.gradle/caches/transforms-3/f7010eb4f03f007409bdebc6a7fc2add/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/abhayk/.gradle/caches/transforms-3/f7010eb4f03f007409bdebc6a7fc2add/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+116        </provider>
+117
+118        <service
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+120            android:exported="false" >
+120-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+121            <meta-data
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+122                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+123                android:value="cct" />
+123-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/abhayk/.gradle/caches/transforms-3/dc03f6d6257b28da2114a80ca5ee5f22/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/abhayk/.gradle/caches/transforms-3/e4f5348e42f47abe981300a7ce64c16e/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+134    </application>
+135
+136</manifest>
